@@ -1,11 +1,12 @@
 # Teste Desenvolvedor Backend Grupo Bamaq
 
-## Desafio PHP Backend Júnior(Laravel)
-As tarefas de CRUD são rotinas muito comuns no dia a dia de desenvolvedores web, o objetivo principal do desafio é fazer um CRUD de Usuários. Somente a rota API é importante, não se preocupe com o frontend. 
-Todos testes de funcionamento do sistema serão realizados através do Postman.
-Testes uniários com PHPUnit são um plus.
-Espera-se que o candidato tenha bons conhecimentos em PHP e saiba o mínimo do framework Laravel. 
-Para persistencia dos dados deve ser utilizado algum banco de dados relacional como por exemplo PostgreSQL ou MariaDB.
+## Desafio PHP Backend(Laravel)
+- As tarefas de CRUD são rotinas muito comuns no dia a dia de desenvolvedores web, o objetivo principal do desafio é fazer um CRUD de Usuários. 
+- Somente a rota API é importante, não se preocupe com o frontend. 
+- Todos testes de funcionamento do sistema serão realizados através do Postman.
+- Espera-se que o candidato tenha bons conhecimentos em PHP e saiba o mínimo do framework Laravel. 
+- Para persistencia dos dados deve ser utilizado algum banco de dados relacional como por exemplo PostgreSQL ou MariaDB.
+- Testes unitários com PHPUnit são um diferencial.
 
 
 ## Instruções:
@@ -46,9 +47,9 @@ Ele irá retornar um JSON quando der erro e um JSON quando for sucesso.
    "tokenmsg":"use o token para acessar os endpoints!",
    "User":{ 
       "id":345,
-      "nome":"Programador Backend PHP Júnior",
+      "nome":"Programador Backend PHP",
       "cpf":"12345678909",
-      "email":"junior@php.net",
+      "email":"exemplo@php.net",
       "createdAt":"2019-07-03 07:09:08",
       "updatedAt":"2019-07-03 07:09:08"
    }
