@@ -41,7 +41,12 @@ Comandos úteis:
 
 ### Documentation
 
-Link do postman: https://bityl.co/OxGi
+Link do postman: https://bityl.co/OxHb
+Realize o fork da collection e importe as variáveis globais do postman pelo seguinte arquivo na raiz do projeto
+
+```bash
+  postman-global-variables.json
+```
 
 #### Headers
 
