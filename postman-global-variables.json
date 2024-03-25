@@ -1,0 +1,21 @@
+{
+	"id": "d2e2097d-7a8e-4a48-82ac-fc67db8d3e01",
+	"values": [
+		{
+			"key": "URL",
+			"value": "http://localhost:3021/api",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "accessToken",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-03-25T05:38:45.141Z",
+	"_postman_exported_using": "Postman/10.23.8"
+}
