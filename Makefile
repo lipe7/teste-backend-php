@@ -8,6 +8,8 @@ up:
 	docker-compose exec app php artisan optimize
 	docker-compose exec app php artisan config:clear
 	docker-compose exec app php artisan storage:link
+	docker-compose exec app php artisan jwt:secret
+	docker-compose exec app sh -c "yes | php artisan jwt:secret"
 down:
 	docker-compose down
 seed:
@@ -17,6 +19,7 @@ bash:
 fresh-db:
 	docker-compose exec app php artisan migrate:fresh --seed
 test:
+	docker-compose exec app sh -c "yes | php artisan jwt:secret --env=testing"
 	docker-compose exec app php artisan test --env=testing
 	docker-compose exec app php artisan config:clear
 reset-env:
