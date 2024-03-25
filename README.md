@@ -24,6 +24,21 @@ Para executar testes, execute o seguinte comando:
   make test
 ```
 
+## Commands
+
+Comandos úteis:
+
+```bash
+  make up         -> instala o projeto
+  make down       -> derruba os containers
+  make bash       -> acessa o terminal da aplicação
+  make fresh-db   -> recria o banco de dados e popula com dados iniciais
+  make test       -> executa os testes e limpa a configuração
+  make reset-env  -> limpa e cacheia a configuração
+```
+
+## API Reference
+
 ### Documentation
 
 Link do postman: https://bityl.co/OxGi
