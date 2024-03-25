@@ -26,7 +26,7 @@ Para executar testes, execute o seguinte comando:
 
 ### Documentation
 
-Link do postman:
+Link do postman: https://bityl.co/OxGi
 
 #### Headers
 
